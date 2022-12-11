@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.one-parallelogram {
+    background-image: url('./assets/icons/one-parallelogram.svg');
+    background-size: cover;
+    height: 86px;
+    min-width: 120px;
+}
+.one-parallelogram-active {
+    background-image: url('./assets/icons/one-parallelogram-active.svg');
+    background-size: cover;
+    height: 86px;
+    min-width: 120px;
+}
+.two-parallelogram {
+    background-image: url('./assets/icons/two-parallelogram.svg');
+    background-size: cover;
+    height: 86px;
+    right: 30px;
+    min-width: 160px;
+    position: relative;
+}
+.two-parallelogram-active {
+    background-image: url('./assets/icons/two-parallelogram-active.svg');
+    background-size: cover;
+    height: 86px;
+    right: 30px;
+    min-width: 160px;
+    position: relative;
+}
+.three-parallelogram {
+    background-image: url('./assets/icons/three-parallelogram.svg');
+    background-size: cover;
+    height: 86px;
+    right: 65px;
+    position: relative;
+    min-width: 230px;
+}
+.three-parallelogram-active {
+    background-image: url('./assets/icons/three-parallelogram-active.svg');
+    background-size: cover;
+    height: 86px;
+    right: 65px;
+    position: relative;
+    min-width: 230px;
+}
+.four-parallelogram {
+    background-image: url('./assets/icons/four-parallelogram.svg');
+    background-size: cover;
+    height: 86px;
+    position: relative;
+    right: 110px;
+    min-width: 90px;
+}
+.four-parallelogram-active {
+    background-image: url('./assets/icons/four-parallelogram-active.svg');
+    background-size: cover;
+    height: 86px;
+    position: relative;
+    right: 110px;
+    min-width: 90px;
+}
+.five-parallelogram {
+    background-image: url('./assets/icons/five-prallelogram.svg');
+    background-size: cover;
+    height: 86px;
+    right: 135px;
+    position: relative;
+    min-width: 290px;
+    background-repeat: no-repeat;
+}
+.five-parallelogram-active {
+    background-image: url('./assets/icons/five-prallelogram-active.svg');
+    background-size: cover;
+    height: 86px;
+    right: 135px;
+    position: relative;
+    min-width: 290px;
+    background-repeat: no-repeat;
+}
+.parallelogram-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 86px;
+    text-shadow: 1px 1px 1px #ffbaba, 4px 3px 7px #525252;
+    color: #fa5757;
+}
+
+/* .one-parallelogram {
+    clip-path: polygon(0 0, 100% 0%, 80px 100%, 0% 100%);
+    background-color: red;
+    position: relative;
+    height: 80px;
+    min-width: 120px;
+}
+.one-inner-parallelogram {
+    clip-path: polygon(0 0, 100% 0%, 77px 100%, 0% 100%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 3px;
+    bottom: 0px;
+    background: white;
+}
+.two-parallelogram {
+    clip-path: polygon(40px 0%, 100% 0%, 140px 100%, 0% 100%);
+    background-color: red;
+    position: relative;
+    height: 80px;
+    left: -41px;
+    min-width: 165px;
+}
+.two-inner-parallelogram {
+    clip-path: polygon(40px 0%, 100% 0%, 134px 100%, 0% 100%);
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    right: 3px;
+    bottom: 0px;
+    background: white;
+}
+.three-parallelogram {
+    clip-path: polygon(30px 0%, 100% 0%, 200px 100%, 0% 100px);
+    background-color: red;
+    position: relative;
+    height: 80px;
+    min-width: 230px;
+    left: -75px;
+}
+.three-inner-parallelogram {
+    clip-path: polygon(30px 0%, 100% 0%, 194px 100%, 0% 100px);
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    right: 3px;
+    bottom: 0px;
+    background: white;
+}
+.four-parallelogram {
+    clip-path: polygon(30px 0%, 100% 0%, 67px 100%, 0% 100%);
+    background-color: red;
+    position: relative;
+    height: 80px;
+    min-width: 90px;
+    left: -107px;
+}
+.four-inner-parallelogram {
+    clip-path: polygon(30px 0%, 100% 0%, 61px 100%, 0% 100%);
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    right: 3px;
+    bottom: 0px;
+    background: white;
+}
+.five-parallelogram {
+    clip-path: polygon(24px 0%, 250px 0%, 250px 100%, 0% 100%);
+    position: relative;
+    background-color: red;
+    height: 80px;
+    min-width: 280px;
+    left: -132px;
+}
+.five-inner-parallelogram {
+    clip-path: polygon(23px 0%, 240px 0%, 240px 100%, 0% 100%);
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    right: 0px;
+    bottom: 0px;
+    background: white;
+} */
